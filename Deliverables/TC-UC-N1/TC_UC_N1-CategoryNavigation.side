@@ -1,0 +1,152 @@
+{
+  "id": "a4ba631b-dd86-43d8-adc0-57fa93717dfd",
+  "version": "2.0",
+  "name": "TC_UC_N1-CategoryNavigation",
+  "url": "https://www.trendyol.com/",
+  "tests": [{
+    "id": "2b9778b1-1dc4-4c89-8e63-88681b306f96",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0a85627c-a6b4-4cc8-bff9-30f3102e03a3",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.trendyol.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2db6c23c-4d96-48c0-9642-74fe8880bbcb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x847",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3650a7ee-7500-4c15-84fa-fcfbeab2a63a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Elektronik",
+      "targets": [
+        ["linkText=Elektronik", "linkText"],
+        ["css=.tab-link:nth-child(8) > .category-header", "css:finder"],
+        ["xpath=//a[contains(text(),'Elektronik')]", "xpath:link"],
+        ["xpath=//div[@id='navigation-wrapper']/nav/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/butik/liste/5/elektronik')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Elektronik')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e93518fa-52dc-468f-999d-45a51f60c6e3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.account-user > .link-text",
+      "targets": [
+        ["css=.account-user > .link-text", "css:finder"],
+        ["xpath=//div[@id='account-navigation-container']/div/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Giriş Yap')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43568fd0-0a90-4a10-bc56-28e357304c73",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-email",
+      "targets": [
+        ["id=login-email", "id"],
+        ["name=login email", "name"],
+        ["css=#login-email", "css:finder"],
+        ["xpath=//input[@id='login-email']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe756050-6739-44d3-9737-648d3b30bc63",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-email",
+      "targets": [
+        ["id=login-email", "id"],
+        ["name=login email", "name"],
+        ["css=#login-email", "css:finder"],
+        ["xpath=//input[@id='login-email']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "demirdemirdogen@gmail.com"
+    }, {
+      "id": "aea3e50e-c212-4f28-b6f5-a4794965427f",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-password-input",
+      "targets": [
+        ["id=login-password-input", "id"],
+        ["name=login-password", "name"],
+        ["css=#login-password-input", "css:finder"],
+        ["xpath=//input[@id='login-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfcafdb3-5e2c-45fa-becf-159c6514b93a",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password-input",
+      "targets": [
+        ["id=login-password-input", "id"],
+        ["name=login-password", "name"],
+        ["css=#login-password-input", "css:finder"],
+        ["xpath=//input[@id='login-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "Demir0722"
+    }, {
+      "id": "161d9548-246c-4dd8-b82b-114a062c6e72",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q-primary",
+      "targets": [
+        ["css=.q-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e7a3bdc-0a1e-4d7b-be7b-7d72bcbf6292",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Süpermarket",
+      "targets": [
+        ["linkText=Süpermarket", "linkText"],
+        ["css=.tab-link:nth-child(5) > .category-header", "css:finder"],
+        ["xpath=//a[contains(text(),'Süpermarket')]", "xpath:link"],
+        ["xpath=//div[@id='navigation-wrapper']/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/butik/liste/16/supermarket')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Süpermarket')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b0b5e6c-b60e-4ab1-ba03-a9d0bfca3bdb",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "188d9cae-4453-42b8-a933-6ac7ac906b03",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["2b9778b1-1dc4-4c89-8e63-88681b306f96"]
+  }],
+  "urls": ["https://www.trendyol.com/"],
+  "plugins": []
+}

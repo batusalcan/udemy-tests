@@ -1,0 +1,138 @@
+{
+  "id": "4276019c-a0c2-431a-98c1-10a6bf3c1bce",
+  "version": "2.0",
+  "name": "UdemyDemoTest_TC-SC-01",
+  "url": "http://localhost:5173/",
+  "tests": [{
+    "id": "e8fa5b36-351e-4c4a-a65f-0737d40ef086",
+    "name": "Untitled",
+    "commands": [{
+      "id": "ff8b60be-f1fa-46d9-861b-2719229b9ddd",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:5173/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "912f767f-22e4-47c3-a517-9c9da0eb1a77",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1260x804",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae8695f9-77c6-4efe-934c-81f11e4553a1",
+      "comment": "",
+      "command": "click",
+      "target": "id=search-link",
+      "targets": [
+        ["id=search-link", "id"],
+        ["linkText=Browse Courses", "linkText"],
+        ["css=#search-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Browse Courses')]", "xpath:link"],
+        ["xpath=//a[@id='search-link']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/nav/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Browse Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "52eea545-1162-4a2b-9300-b6e4bc7d47fc",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(2) .card-body > .btn",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) .card-body > .btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[3]/div[2]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a2edf38-e55b-4dac-ad61-f9c5138bf1f0",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "You must be logged in to add to cart.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "afdf24ae-841e-45f9-8b44-49efa9ee16ba",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(1) .card-body > .btn",
+      "targets": [
+        ["css=.col-md-4:nth-child(1) .card-body > .btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[3]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6908161a-4544-459c-a9ca-a8d32226c506",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "You must be logged in to add to cart.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8b0a2db2-658a-48d0-8c2e-4f5e2aa4f3d3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(3) .card-body > .btn",
+      "targets": [
+        ["css=.col-md-4:nth-child(3) .card-body > .btn", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div[3]/div[3]/div/div/button", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b190c189-85d4-478c-aaf6-ba84569de198",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "You must be logged in to add to cart.",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "58f07383-e1ea-4696-b924-6af931f8e8ef",
+      "comment": "",
+      "command": "click",
+      "target": "id=cart-link",
+      "targets": [
+        ["id=cart-link", "id"],
+        ["linkText=Cart", "linkText"],
+        ["css=#cart-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Cart')]", "xpath:link"],
+        ["xpath=//a[@id='cart-link']", "xpath:attributes"],
+        ["xpath=//div[@id='root']/div/nav/div/div/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cart')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39ea5b2a-e326-47c1-bb0b-e4c8d79651a7",
+      "comment": "",
+      "command": "pause",
+      "target": "",
+      "targets": [],
+      "value": "3000"
+    }, {
+      "id": "77562b32-f3a1-41d2-b67d-64122743bb49",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b9cf6177-5b67-4e07-8aaa-3d71f005eb24",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e8fa5b36-351e-4c4a-a65f-0737d40ef086"]
+  }],
+  "urls": ["http://localhost:5173/"],
+  "plugins": []
+}

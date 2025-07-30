@@ -1,0 +1,205 @@
+{
+  "id": "fb91f0c8-ca66-4f89-96a9-904a2b494dcb",
+  "version": "2.0",
+  "name": "TC_WL_02-RemovingFromFavorites",
+  "url": "https://www.trendyol.com",
+  "tests": [{
+    "id": "37276f15-fe27-4f03-8e44-0b0e2cbe0c4e",
+    "name": "TC_WL_02-RemovingFromFavorites",
+    "commands": [{
+      "id": "cb2538d1-8632-4ced-ae58-02d95302c058",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b58eb66e-7aae-408a-9a68-f18f92842930",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1200x847",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a2238b2-6ab6-4904-bfdb-e24cef7e7132",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login-button",
+      "targets": [
+        ["css=.login-button", "css:finder"],
+        ["xpath=//div[@id='account-navigation-container']/div/div/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a6cedd03-99ce-47c9-8cc9-949cb0b33af9",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-email",
+      "targets": [
+        ["id=login-email", "id"],
+        ["name=login email", "name"],
+        ["css=#login-email", "css:finder"],
+        ["xpath=//input[@id='login-email']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2326459-54c4-4af1-a5ef-487627dd5dc5",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-email",
+      "targets": [
+        ["id=login-email", "id"],
+        ["name=login email", "name"],
+        ["css=#login-email", "css:finder"],
+        ["xpath=//input[@id='login-email']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/input", "xpath:position"]
+      ],
+      "value": "demirdemirdogen@gmail.com"
+    }, {
+      "id": "77fe8e76-4f00-4b20-a8d8-efe7a4742f7e",
+      "comment": "",
+      "command": "click",
+      "target": "id=login-password-input",
+      "targets": [
+        ["id=login-password-input", "id"],
+        ["name=login-password", "name"],
+        ["css=#login-password-input", "css:finder"],
+        ["xpath=//input[@id='login-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cbccad71-b2b8-4fd4-8633-11f8e73e12d0",
+      "comment": "",
+      "command": "type",
+      "target": "id=login-password-input",
+      "targets": [
+        ["id=login-password-input", "id"],
+        ["name=login-password", "name"],
+        ["css=#login-password-input", "css:finder"],
+        ["xpath=//input[@id='login-password-input']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "YOUR_PASSWORD"
+    }, {
+      "id": "07e35874-3fcc-47b9-bb93-448454ad9d15",
+      "comment": "",
+      "command": "click",
+      "target": "css=.q-primary",
+      "targets": [
+        ["css=.q-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "765ec8db-a832-4113-b139-4433ff58badd",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.q-primary",
+      "targets": [
+        ["css=.q-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aeaf9a5-2fcb-4d20-a900-de2910596af2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.q-primary",
+      "targets": [
+        ["css=.q-primary", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='login-register']/div[3]/div/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5122ad20-df51-4bd2-ac53-7639372c3f19",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.item:nth-child(5)",
+      "targets": [
+        ["css=.item:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='browsing-gw-homepage']/div/div/div/div/article/div/div/div/a[5]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Hesabim/IndirimKuponlari')])[3]", "xpath:href"],
+        ["xpath=//article/div/div/div/a[5]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "066c2673-68d4-4ddf-8b91-83b45f7da4b4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Favorilerim",
+      "targets": [
+        ["linkText=Favorilerim", "linkText"],
+        ["css=.account-favorites .link-text", "css:finder"],
+        ["xpath=//a[contains(text(),'Favorilerim')]", "xpath:link"],
+        ["xpath=//div[@id='account-navigation-container']/div/div[2]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/Hesabim/Favoriler')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/div/div/div[2]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Favorilerim')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9a6bca40-2b3f-4528-8cec-927babf9324b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card:nth-child(1) .icon-close",
+      "targets": [
+        ["css=.product-card:nth-child(1) .icon-close", "css:finder"],
+        ["xpath=//div[@id='favorites']/div/div/div[2]/div[2]/div/div/a/div[2]/div[7]/i", "xpath:idRelative"],
+        ["xpath=//div[7]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e27fbea-7d39-4c6a-a6fe-9d0366133ffc",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.product-card:nth-child(1) .icon-close",
+      "targets": [
+        ["css=.product-card:nth-child(1) .icon-close", "css:finder"],
+        ["xpath=//div[@id='favorites']/div/div/div[2]/div[2]/div/div/a/div[2]/div[7]/i", "xpath:idRelative"],
+        ["xpath=//div[7]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca47674b-8acc-4aa6-9c50-7386c397c7d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.product-card:nth-child(1) .icon-close",
+      "targets": [
+        ["css=.product-card:nth-child(1) .icon-close", "css:finder"],
+        ["xpath=//div[@id='favorites']/div/div/div[2]/div[2]/div/div/a/div[2]/div[7]/i", "xpath:idRelative"],
+        ["xpath=//div[7]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "468cc12c-7266-4791-807b-2a0a6f2c0a73",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "83f1e82b-998a-4abb-9087-473736ab82f9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["37276f15-fe27-4f03-8e44-0b0e2cbe0c4e"]
+  }],
+  "urls": ["https://www.trendyol.com/"],
+  "plugins": []
+}

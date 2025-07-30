@@ -1,0 +1,12 @@
+# Mac sistem dosyaları
+.DS_Store
+
+# IDEA, Eclipse vs.
+.idea/
+*.iml
+out/
+build/
+
+# Ekran kayıtları (istersen)
+*.mp4
+*.mov
